@@ -4,6 +4,7 @@
 body {
   background: black;
   font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Underdog", cursive;
   color: white;
   font-size: 20px;
   letter-spacing: 0.12em;
@@ -171,5 +172,8 @@ h1 {
   }
   body {
     font-size: 0.99em;
+  }
+  .left-part {
+    padding: 0;
   }
 }
