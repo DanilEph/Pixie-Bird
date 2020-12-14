@@ -75,14 +75,14 @@ h1 {
   padding: 20px;
   border: 2px solid white;
   border-radius: 10px;
-  background: url(../img/vk.png) no-repeat;
+  background: url("../img/vk.png") no-repeat;
   background-size: contain;
   background-position-x: center;
 }
 
 .vk:hover {
   border: 2px solid #d4ac23;
-  background: url(../img/vk-gold.png) no-repeat;
+  background: url("../img/vk-gold.png") no-repeat;
   background-size: contain;
   background-position-x: center;
 }
