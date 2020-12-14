@@ -1,5 +1,6 @@
 input[type="button"],
-input[type="reset"] {
+input[type="reset"],
+button {
   border: none;
   margin: 0;
   padding: 0;
