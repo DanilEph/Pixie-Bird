@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixie Bird</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reset-button.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="shortcut icon" href="img/icon.png">
+</head>
+<body>
+    <video id="baudio"  loop="" autoplay="" name="media" preload="auto" hidden>
+        <source src="mp3/backmusic.mp3" type="audio/mp3">
+    </video>
+    <div class="wrapper">
+        <div class="content">
+            <div class="left-part">
+                <h1>Pixie bird</h1>
+                <p>Данная простинькая игра была разработана по мотивам известной игры Flappy Bird.</p>
+                <p>Правила очень просты: нужно преодолеть припятствия, не заранившись, как можно большее количество раз.</p>
+                <p>Для нача и дальнейшего управления пикси нажмите любую кнопку. </p>
+            </div>
+            <div class="right-part">
+                <canvas id="canvas" width="288" height="512"></canvas>
+                <div class="main-menu">
+                    <input type="button" class="play" value="играть">
+                </div>
+                <div class="replay-menu">
+                    <input type="button" class="replay" value="ещё раз">
+                    <input type="button" class="back" value="назад">
+                </div>
+                <div class="score">Счет: 0</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
